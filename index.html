@@ -15,23 +15,33 @@
   </style>
 </head>
 <body>
-
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+    <form>
+      <div class="field">
+        <label for="Day">Day</label>
+        <input name="Day" type="text" placeholder="DD" required>
+      </div>
+      <div class="field">
+        <label for="Month">Month</label>
+        <input name="Month" type="text" placeholder="MM" required>
+      </div>
+      <div class="field">
+        <label for="Year">Year</label>
+        <input name="Year" type="text" placeholder="YYYY" required>
+      </div>
+        <input type="submit">
+    </form>
+    <div class="result">
+      <span id="years">--</span> years
+      <span id="months">--</span> months
+      <span id="days">--</span> days
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
 </body>
 </html>
