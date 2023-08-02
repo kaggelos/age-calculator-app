@@ -1,0 +1,41 @@
+.age-calculator-app {
+    font-family: Poppins;
+    background-color: white;
+    margin: 15% 2%;
+    padding: 10% 3%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px 16px 128px
+}
+
+.age-calculator-app form {
+    display: flex;
+    flex-direction: column;
+}
+
+.age-calculator-app form .input-date {
+    display: flex;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.age-calculator-app form .input-date .field {
+    display: inline-block;
+}
+
+.age-calculator-app form .input-date .field label {
+    display: block;
+}
+
+.age-calculator-app form .input-date .field input {
+    width: 90%;
+}
+
+.age-calculator-app form .button {
+    justify-self: center;
+}
+
+.age-calculator-app .result {
+    display: flex;
+    flex-direction: column;
+}
