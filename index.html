@@ -5,36 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./assets/fonts/poppins.css">
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Age calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    html, body {margin: 0}
+    body {background-color: hsl(64, 87%, 85%);}
+    body, main {height: 100%;}
   </style>
 </head>
 <body>
   <main>
-    <form>
-      <div class="field">
-        <label for="Day">Day</label>
-        <input name="Day" type="text" placeholder="DD" required>
+    <div class="age-calculator-app">
+      <form>
+        <div class="input-date">
+          <div class="field">
+            <label for="Day">Day</label>
+            <input name="Day" type="text" placeholder="DD" required>
+          </div>
+          <div class="field">
+            <label for="Month">Month</label>
+            <input name="Month" type="text" placeholder="MM" required>
+          </div>
+          <div class="field">
+            <label for="Year">Year</label>
+            <input name="Year" type="text" placeholder="YYYY" required>
+          </div>
+        </div>
+        <input class="button" type="submit">
+      </form>
+      <div class="result">
+        <div class="count"><span id="years">--</span> years</div>
+        <div class="count"><span id="months">--</span> months</div>
+        <div class="count"><span id="days">--</span> days</div>
       </div>
-      <div class="field">
-        <label for="Month">Month</label>
-        <input name="Month" type="text" placeholder="MM" required>
-      </div>
-      <div class="field">
-        <label for="Year">Year</label>
-        <input name="Year" type="text" placeholder="YYYY" required>
-      </div>
-        <input type="submit">
-    </form>
-    <div class="result">
-      <span id="years">--</span> years
-      <span id="months">--</span> months
-      <span id="days">--</span> days
     </div>
   </main>
   <footer>
