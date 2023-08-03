@@ -11,6 +11,7 @@
 .age-calculator-app form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .age-calculator-app form .input-date {
@@ -32,7 +33,21 @@
 }
 
 .age-calculator-app form .button {
-    justify-self: center;
+    margin: 10%;
+    border-width: 0px;
+    border-radius: 50%;
+    padding: 20px 15px;
+    background-color: hsl(259, 100%, 65%);
+}
+
+.age-calculator-app form .button:hover {
+    background-color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+.age-calculator-app form .button img {
+    width: 70%;
+    content: url('./assets/images/icon-arrow.svg')
 }
 
 .age-calculator-app .result {
