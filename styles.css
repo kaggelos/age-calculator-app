@@ -2,7 +2,7 @@
     font-family: Poppins;
     background-color: white;
     margin: 15% 2%;
-    padding: 10% 3%;
+    padding: 10% 6%;
     display: flex;
     flex-direction: column;
     border-radius: 16px 16px 128px
@@ -29,7 +29,18 @@
 }
 
 .age-calculator-app form .input-date .field input {
-    width: 90%;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    width: 80%;
+    height: 90%;
+    border: solid 1px hsl(0, 0%, 86%);
+    border-radius: 8px;
+}
+
+.age-calculator-app form .input-date .field input::placeholder {
+    position: relative;
+    left: 10%;
+    color: hsl(0, 1%, 44%);
 }
 
 .age-calculator-app form .button {
