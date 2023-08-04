@@ -69,4 +69,13 @@
 .age-calculator-app .result {
     display: flex;
     flex-direction: column;
+    font-size: 3em;
+    font-style: italic;
+    position: relative;
+    top: 10%;
+    margin-bottom: 10%;
+}
+
+.age-calculator-app .result span {
+    color: hsl(259, 100%, 65%);
 }
