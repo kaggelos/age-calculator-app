@@ -1,17 +1,21 @@
 .age-calculator-app {
     font-family: Poppins;
     background-color: white;
-    margin: 15% 2%;
+    margin: 4%;
     padding: 10% 6%;
     display: flex;
     flex-direction: column;
-    border-radius: 16px 16px 128px
+    border-radius: 32px 32px 128px
 }
 
 .age-calculator-app form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 36.7%;
+    border: solid hsl(0, 0%, 86%);
+    border-width: 0 0 1px 0;
+    margin-bottom: 10%;
 }
 
 .age-calculator-app form .input-date {
@@ -44,10 +48,11 @@
 }
 
 .age-calculator-app form .button {
-    margin: 10%;
     border-width: 0px;
     border-radius: 50%;
     padding: 20px 15px;
+    position: relative;
+    top: 31%;
     background-color: hsl(259, 100%, 65%);
 }
 
