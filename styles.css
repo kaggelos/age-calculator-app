@@ -2,7 +2,7 @@
     font-family: Poppins;
     background-color: white;
     margin: 4%;
-    padding: 10% 6%;
+    padding: 40px 6%;
     display: flex;
     flex-direction: column;
     border-radius: 32px 32px 128px
@@ -12,7 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 36.7%;
     border: solid hsl(0, 0%, 86%);
     border-width: 0 0 1px 0;
     margin-bottom: 10%;
@@ -21,7 +20,7 @@
 .age-calculator-app form .input-date {
     display: flex;
     justify-content: space-around;
-    height: 50%;
+    height: 60%;
 }
 
 .age-calculator-app form .input-date .field {
@@ -30,6 +29,10 @@
 
 .age-calculator-app form .input-date .field label {
     display: block;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: .2em;
 }
 
 .age-calculator-app form .input-date .field input {
@@ -39,11 +42,10 @@
     height: 90%;
     border: solid 1px hsl(0, 0%, 86%);
     border-radius: 8px;
+    padding-left: 10%;
 }
 
 .age-calculator-app form .input-date .field input::placeholder {
-    position: relative;
-    left: 10%;
     color: hsl(0, 1%, 44%);
 }
 
