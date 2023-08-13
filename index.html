@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="./assets/fonts/poppins.css">
@@ -11,14 +13,40 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    html, body {margin: 0}
-    body {background-color: hsl(64, 87%, 85%);}
-    body, main {height: 95vh;}
-    .age-calculator-app { height: 60%; position: relative; top: 10%;}
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      height: 5vh;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    html,
+    body {
+      margin: 0 2%
+    }
+
+    body {
+      background-color: hsl(0, 0%, 86%);
+    }
+
+    body,
+    main {
+      height: 95vh;
+    }
+
+    .age-calculator-app {
+      height: 60%;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
   </style>
 </head>
+
 <body>
   <main>
     <div class="age-calculator-app">
@@ -26,15 +54,15 @@
         <div class="input-date">
           <div class="field">
             <label for="Day">Day</label>
-            <input name="Day" type="text" placeholder="DD" required>
+            <input name="Day" type="number" placeholder="DD" required>
           </div>
           <div class="field">
             <label for="Month">Month</label>
-            <input name="Month" type="text" placeholder="MM" required>
+            <input name="Month" type="number" placeholder="MM" required>
           </div>
           <div class="field">
             <label for="Year">Year</label>
-            <input name="Year" type="text" placeholder="YYYY" required>
+            <input name="Year" type="number" placeholder="YYYY" required>
           </div>
         </div>
         <button class="button" type="submit"><img></button>
@@ -48,9 +76,10 @@
   </main>
   <footer>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </div>
   </footer>
 </body>
+
 </html>
